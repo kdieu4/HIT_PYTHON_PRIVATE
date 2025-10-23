@@ -1,0 +1,11 @@
+fullname = input("Enter your fullname: ")
+age = int(input("Enter age: "))
+gender = input("Enter gender(male/female): ")
+marital = input("Enter marital status (Single/Married/In a relationship):")
+
+print("INFORMATION")
+print(f"Fullname        :{fullname}")
+print(f"Age:            :{age}")
+print(f"Gender:         :{gender}")
+print(f"Marital status  :{marital}")
+print("Chuc anh Hung tim duoc nguoi iu =)))")
