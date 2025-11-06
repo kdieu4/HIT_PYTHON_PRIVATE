@@ -22,7 +22,7 @@ for i in range(size, len(coded_str)):
         while coded_str[j].isalpha():
             temp += coded_str[j]
             j += 1
-        res += (int(coded_str[i]) - 1) * temp
+        res += (int(coded_str[i])) * temp
 
 i = len(res)
 while i < len(coded_str):
