@@ -57,7 +57,10 @@ for i in range(size, len(coded_str)):
         while coded_str[j].isalpha():
             temp += coded_str[j]
             j += 1
+<<<<<<< HEAD
 
+=======
+>>>>>>> 218d490af211a995a9dcba8ad86dc3a1ada07696
         res += (int(coded_str[i])) * temp
 
 i = len(res)
