@@ -39,7 +39,7 @@ enter_day = input("Enter the day: ")
 enter_time = input("Enter the time: ")
 add_event(schedule, create_event(enter_name, enter_day, enter_time))
 
-day_to_find = input("What day do you want to find? ")
+day_to_find = input("What day do you want to find?(Mon/Tue/Wed/Thur/Fri/Sat/Sun) ")
 export_schedule(find_by_day(schedule, day_to_find))
 # print(find_by_day(schedule, day_to_find))
 # res = find_by_day(schedule, day_to_find)
